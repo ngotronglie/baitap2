@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>bai2_liemntph36778</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="cot1">
+        <div class="sanpham"><span>ten san pham</span></div>
+        <div class="sanpham"><span>sản phẩm a</span></div>
+        <div class="sanpham"><span>sản phẩm b</span></div>
+        <div class="sanpham"><span>sản phẩm c</span></div>
+        <div class="sanpham"><span>sản phẩm d</span></div>
+        <button onclick="tong()">tổng</button>
+        <!-- <input type="button" oninput="tong()" id="tong" />
+        <div class="sanpham"><span>tổng tiền: 0</span></div> -->
+      </div>
+      <div class="cot2">
+        <div class="sanpham"><span>giá</span></div>
+        <div class="sanpham"><span id="gia1">200</span></div>
+        <div class="sanpham"><span id="gia2">300</span></div>
+        <div class="sanpham"><span id="gia3">400</span></div>
+        <div class="sanpham"><span id="gia4">500</span></div>
+      </div>
+      <div class="cot3">
+        <div class="sanpham">số lượng</div>
+        <div>
+          <input
+            type="number"
+            min="1"
+            max="20"
+            id="soluong1"
+            oninput="tien1_()"
+          />
+        </div>
+        <div>
+          <input
+            type="number"
+            min="1"
+            max="20"
+            id="soluong2"
+            oninput="tien2_()"
+          />
+        </div>
+        <div>
+          <input
+            type="number"
+            min="1"
+            max="20"
+            id="soluong3"
+            oninput="tien3_()"
+          />
+        </div>
+        <div>
+          <input
+            type="number"
+            min="1"
+            max="20"
+            id="soluong4"
+            oninput="tien4_()"
+          />
+        </div>
+      </div>
+      <div class="cot4">
+        <div class="sanpham">thành tiền</div>
+        <div class="sanpham"><span id="tien1">0</span></div>
+        <div class="sanpham"><span id="tien2">0</span></div>
+        <div class="sanpham"><span id="tien3">0</span></div>
+        <div class="sanpham"><span id="tien4">0</span></div>
+        <div class="sanpham"><span id="tongall">0</span></div>
+      </div>
+      <div class="cot4"></div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
